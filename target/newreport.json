@@ -1,0 +1,271 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5250023200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user has to launch the chrome browser and hit the url of facebook",
+            "match": {
+              "location": "Facebook.user_has_to_launch_the_chrome_browser_and_hit_the_url_of_facebook()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "To verify the login functionality",
+        "description": "",
+        "id": "to-validate-the-login-functionality;to-verify-the-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 219157500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user has to enter the username and password",
+            "match": {
+              "location": "Facebook.user_has_to_enter_the_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "vishal@gmail.com",
+                  "vishalgmail"
+                ]
+              },
+              {
+                "cells": [
+                  "sinkaravel@gmail.com",
+                  "sinkaravelmail"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#u_0_b\"}\n  (Session info: chrome\u003d88.0.4324.150)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-073N4BVT\u0027, ip: \u0027192.168.0.194\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_281\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\\Users\\SOWMIY~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:64767}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c1138cfa1f555477c76ea9239b9df9aa\n*** Element info: {Using\u003did, value\u003du_0_b}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy15.click(Unknown Source)\r\n\tat org.base.Base.clickBtn(Base.java:50)\r\n\tat org.xpath.tasks.Facebook.click_the_login_button(Facebook.java:66)\r\n\tat ✽.click the login button(src/test/resources/Login/loggin.feature:11)\r\n",
+              "duration": 24700800,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "click the login button",
+            "match": {
+              "location": "Facebook.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6400,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user unable to enter the home page of facebook",
+            "match": {
+              "location": "Facebook.user_unable_to_enter_the_home_page_of_facebook()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3382784600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user has to launch the chrome browser and hit the url of facebook",
+            "match": {
+              "location": "Facebook.user_has_to_launch_the_chrome_browser_and_hit_the_url_of_facebook()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "To validate forgot password link",
+        "description": "",
+        "id": "to-validate-the-login-functionality;to-validate-forgot-password-link",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1099887600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user has to click forgot password link",
+            "match": {
+              "location": "Facebookk.user_has_to_click_forgot_password_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70526500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user has to enter the mobno on mobno field",
+            "match": {
+              "location": "Facebookk.user_has_to_enter_the_mobno_on_mobno_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5068588800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click the search button",
+            "match": {
+              "location": "Facebookk.click_the_search_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3641653800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user has to launch the chrome browser and hit the url of facebook",
+            "match": {
+              "location": "Facebook.user_has_to_launch_the_chrome_browser_and_hit_the_url_of_facebook()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "To validate the create new account",
+        "description": "",
+        "id": "to-validate-the-login-functionality;to-validate-the-create-new-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 91598100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "click create new account button",
+            "match": {
+              "location": "Facebookkk.click_create_new_account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10215598700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user has enter the first name and last name",
+            "match": {
+              "location": "Facebookkk.user_has_enter_the_first_name_and_last_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110202600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user has to enter the mobile num or password",
+            "match": {
+              "location": "Facebookkk.user_has_to_enter_the_mobile_num_or_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87935100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user has to enter the new password",
+            "match": {
+              "location": "Facebookkk.user_has_to_enter_the_new_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 741377700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user has to select date of birth",
+            "match": {
+              "location": "Facebookkk.user_has_to_select_date_of_birth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84837700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user has to click gender",
+            "match": {
+              "location": "Facebookkk.user_has_to_click_gender()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality",
+    "description": "",
+    "id": "to-validate-the-login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Login/loggin.feature",
+    "tags": []
+  }
+]
